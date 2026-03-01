@@ -14,11 +14,6 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 text-center lg:px-8 lg:py-32">
         <div className="mx-auto max-w-4xl">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/80 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm">
-            <span className="h-1.5 w-1.5 rounded-full bg-foreground animate-pulse" />
-            Aceptando nuevos socios
-          </div>
-
           <h1 className="font-serif text-5xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-6xl lg:text-8xl text-balance">
             Inteligencia{" "}
             <span className="text-primary">diseñada</span>{" "}
