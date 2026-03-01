@@ -1,0 +1,220 @@
+[00:00:00.860] Server  LOG     ✓ Ready in 562ms
+[00:00:04.995] Server  ERROR   ⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:559:11)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js:1:1406)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+Caused by: Error: Cannot find module '@tailwindcss/oxide-linux-x64-gnu'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:288:27)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+Caused by: Error: Cannot find module './tailwindcss-oxide.linux-x64-gnu.node'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:283:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:05.408] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:559:11)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js:1:1406)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+Caused by: Error: Cannot find module '@tailwindcss/oxide-linux-x64-gnu'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:288:27)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+Caused by: Error: Cannot find module './tailwindcss-oxide.linux-x64-gnu.node'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:283:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:05.591] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:559:11)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js:1:1406)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+Caused by: Error: Cannot find module '@tailwindcss/oxide-linux-x64-gnu'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:288:27)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+Caused by: Error: Cannot find module './tailwindcss-oxide.linux-x64-gnu.node'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:283:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:05.591] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:559:11)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js:1:1406)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+Caused by: Error: Cannot find module '@tailwindcss/oxide-linux-x64-gnu'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:288:27)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+Caused by: Error: Cannot find module './tailwindcss-oxide.linux-x64-gnu.node'
+Require stack:
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js
+- /home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/postcss/dist/index.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/chunks/[turbopack]_runtime.js
+- /home/leo/Applications/iave.com.ve/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1224:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1050:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1310:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at requireNative (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:283:18)]
+    [at Object.<anonymous> (/home/leo/Applications/iave.com.ve/node_modules/@tailwindcss/oxide/index.js:526:17)]
+    [at Module._compile (node:internal/modules/cjs/loader:1480:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1287:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1103:12)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:03:24.640] Server  LOG     ✓ Compiled in 461ms
+[00:03:26.620] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:26.621] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:26.621] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772324663138} /_vercel/insights/view
+[00:03:31.213] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:31.214] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:31.214] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772324668074} /_vercel/insights/view
