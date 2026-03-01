@@ -32,9 +32,11 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" className="gap-2 px-8 text-base">
+            <Button size="lg" className="gap-2 px-8 text-base" asChild>
+              <a href="mailto:leo@leopolanco.com">
               Agendar una Consulta
               <ArrowRight className="h-4 w-4" />
+              </a>
             </Button>
             <Button
               size="lg"

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { MapPin } from "lucide-react"
 
 const footerLinks = {
   Servicios: [
@@ -71,17 +72,10 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             {new Date().getFullYear()} IAVE Laboratorio. Todos los derechos reservados.
           </p>
-          <div className="flex gap-6">
-            {["X", "LinkedIn", "GitHub"].map((platform) => (
-              <Link
-                key={platform}
-                href="#"
-                className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              >
-                {platform}
-              </Link>
-            ))}
-          </div>
+          <p className="flex items-center gap-2">
+            <MapPin className="h-3.5 w-3.5" />
+            Venezuela
+          </p>
         </div>
       </div>
     </footer>

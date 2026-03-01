@@ -40,12 +40,11 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-            Iniciar sesion
-          </Button>
-          <Button size="sm" className="gap-2">
-            Comenzar
-            <ArrowRight className="h-3.5 w-3.5" />
+          <Button size="sm" className="gap-2" asChild>
+            <a href="mailto:leo@leopolanco.com">
+              Comenzar
+              <ArrowRight className="h-3.5 w-3.5" />
+            </a>
           </Button>
         </div>
 
@@ -72,12 +71,11 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-border">
-              <Button variant="ghost" size="sm" className="justify-start text-muted-foreground">
-                Iniciar sesion
-              </Button>
-              <Button size="sm" className="gap-2">
-                Comenzar
-                <ArrowRight className="h-3.5 w-3.5" />
+              <Button size="sm" className="gap-2" asChild>
+                <a href="mailto:leo@leopolanco.com">
+                  Comenzar
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </a>
               </Button>
             </div>
           </div>

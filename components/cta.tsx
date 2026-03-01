@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Link } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function CTA() {
@@ -13,21 +13,16 @@ export function CTA() {
             ¿Listo para integrar IA en tu negocio?
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Agenda una consulta gratuita con nuestro equipo para explorar como
+            Contactanos para explorar como
             IAVE puede ayudar a transformar tus operaciones con soluciones de IA a medida.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" className="gap-2 px-8 text-base">
-              Agendar una Consulta
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="px-8 text-base border-border text-foreground hover:bg-secondary"
-            >
-              Descargar Casos de Estudio
+            <Button size="lg" className="gap-2 px-8 text-base" asChild>
+              <a href="mailto:leo@leopolanco.com">
+                Contactanos
+                <ArrowRight className="h-4 w-4" />
+              </a>
             </Button>
           </div>
 
